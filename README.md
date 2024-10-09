@@ -9,8 +9,6 @@
 - **Form Pendaftaran:** Mengumpulkan data pendaftar dengan method POST.
 - **Detail Pendaftar:** Menampilkan informasi pendaftar yang telah terdaftar.
 
-## 📷 Screenshot
-![Screenshot](link_to_screenshot.png)
 
 ## 💻 Teknologi yang Digunakan
 - HTML
