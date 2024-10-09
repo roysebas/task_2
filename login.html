@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Login Page</h2>
+        <form action="details.html" method="POST"> 
+            <label for="nama">Nama Lengkap:</label><br>
+            <input type="text" id="nama" name="nama" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="alamat">Alamat:</label><br>
+            <input type="text" id="alamat" name="alamat" required><br><br>
+
+            <label for="telepon">Nomor Telepon:</label><br>
+            <input type="tel" id="telepon" name="telepon" pattern="[0-9]*" required><br><br>
+
+            <label>Jenis Kelamin:</label><br>
+            <input type="radio" id="laki-laki" name="jenis_kelamin" value="Laki-laki" required>
+            <label for="laki-laki">Laki-laki</label><br>
+            <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" required>
+            <label for="perempuan">Perempuan</label><br><br>
+
+            <button type="submit">Daftar</button>
+        </form>
+    </div>
+</body>
+</html>
